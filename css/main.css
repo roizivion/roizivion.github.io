@@ -1,0 +1,43 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: url(/images/table.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 120px;
+  background: goldenrod;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#guest-card-images > img, #house-card-images > img {
+  margin: 10px;
+  padding: 5px;
+  height: 150px;
+}
+
+#guest-card-images > div, #house-card-images > div {
+  border: 5px solid black;
+  background-color: whitesmoke;
+  height: 150px;
+  width: 110px;
+  margin: 15px;
+  display: inline-block;
+}
